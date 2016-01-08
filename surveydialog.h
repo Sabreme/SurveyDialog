@@ -27,18 +27,27 @@ private slots:
     //void selectionMade(QString boxName);
     void selectionMade (QAbstractButton *radioButton);
 
+    void selectionToValue(QString buttonName);
+
+    void answerQuestion(char question);
+
+    void addResult(char question, char answer);
+
+
+
+
+
     void mapSignals();
 
-
-
-
-    void on_quest1Ans1_clicked();
 
 private:
     Ui::SurveyDialog *ui;
 
     QSignalMapper * mapper;
-    QButtonGroup * group1;
+    QButtonGroup * group1, * group2, *group3, *group4, *group5;
+    QButtonGroup * group6, * group7, *group8, *group9, *groupD;
+
+    int userAnswers[10];
 };
 
 #endif // SURVEYDIALOG_H

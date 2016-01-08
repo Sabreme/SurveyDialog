@@ -53,6 +53,9 @@ QPushButton
 </string>
   </property>
   <widget class="QPushButton" name="buttonSubmit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>310</x>
@@ -76,6 +79,11 @@ QPushButton
   border: 2px solid #8f8f91;  
   border-radius: 6px;
  color: white ;
+}
+
+QPushButton::Disabled
+{
+ color: black ;
 }
 </string>
    </property>
@@ -240,6 +248,9 @@ border:none;
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QLabel" name="label_No01">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="font">
        <font>
         <family>Arial</family>
@@ -247,6 +258,9 @@ border:none;
         <weight>75</weight>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
       </property>
       <property name="text">
        <string>1</string>
@@ -319,6 +333,9 @@ border:none;
         <weight>75</weight>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>5</string>
@@ -687,7 +704,7 @@ border:none;
       </widget>
      </item>
      <item>
-      <widget class="QRadioButton" name="quest5Ans5">
+      <widget class="QRadioButton" name="quest4Ans5">
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
        </property>
@@ -1261,7 +1278,7 @@ border:none;
       </widget>
      </item>
      <item>
-      <widget class="QRadioButton" name="quest5Ans5_4">
+      <widget class="QRadioButton" name="quest5Ans5">
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
        </property>
@@ -1832,12 +1849,12 @@ border:none;
   <tabstop>quest4Ans2</tabstop>
   <tabstop>quest4Ans3</tabstop>
   <tabstop>quest4Ans4</tabstop>
-  <tabstop>quest5Ans5</tabstop>
+  <tabstop>quest4Ans5</tabstop>
   <tabstop>quest5Ans1</tabstop>
   <tabstop>quest5Ans2</tabstop>
   <tabstop>quest5Ans3</tabstop>
   <tabstop>quest5Ans4</tabstop>
-  <tabstop>quest5Ans5_4</tabstop>
+  <tabstop>quest5Ans5</tabstop>
   <tabstop>quest6Ans1</tabstop>
   <tabstop>quest6Ans2</tabstop>
   <tabstop>quest6Ans3</tabstop>
