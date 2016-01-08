@@ -2044,27 +2044,57 @@ border:none;
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
-  <tabstop>pushButton</tabstop>
-  <tabstop>quest2Ans5</tabstop>
-  <tabstop>quest1Ans3</tabstop>
-  <tabstop>quest4Ans2</tabstop>
-  <tabstop>quest2Ans4</tabstop>
-  <tabstop>quest4Ans3</tabstop>
   <tabstop>quest1Ans1</tabstop>
-  <tabstop>quest4Ans4</tabstop>
-  <tabstop>quest5Ans5</tabstop>
+  <tabstop>quest1Ans2</tabstop>
+  <tabstop>quest1Ans3</tabstop>
+  <tabstop>quest1Ans4</tabstop>
+  <tabstop>quest1Ans5</tabstop>
+  <tabstop>quest2Ans1</tabstop>
   <tabstop>quest2Ans2</tabstop>
   <tabstop>quest2Ans3</tabstop>
-  <tabstop>quest1Ans4</tabstop>
+  <tabstop>quest2Ans4</tabstop>
+  <tabstop>quest2Ans5</tabstop>
   <tabstop>quest3Ans1</tabstop>
   <tabstop>quest3Ans2</tabstop>
   <tabstop>quest3Ans3</tabstop>
   <tabstop>quest3Ans4</tabstop>
   <tabstop>quest3Ans5</tabstop>
-  <tabstop>quest1Ans5</tabstop>
-  <tabstop>quest2Ans1</tabstop>
   <tabstop>quest4Ans1</tabstop>
-  <tabstop>quest1Ans2</tabstop>
+  <tabstop>quest4Ans2</tabstop>
+  <tabstop>quest4Ans3</tabstop>
+  <tabstop>quest4Ans4</tabstop>
+  <tabstop>quest5Ans5</tabstop>
+  <tabstop>quest5Ans1</tabstop>
+  <tabstop>quest5Ans2</tabstop>
+  <tabstop>quest5Ans3</tabstop>
+  <tabstop>quest5Ans4</tabstop>
+  <tabstop>quest5Ans5_4</tabstop>
+  <tabstop>quest6Ans1</tabstop>
+  <tabstop>quest6Ans2</tabstop>
+  <tabstop>quest6Ans3</tabstop>
+  <tabstop>quest6Ans4</tabstop>
+  <tabstop>quest6Ans5</tabstop>
+  <tabstop>quest7Ans1</tabstop>
+  <tabstop>quest7Ans2</tabstop>
+  <tabstop>quest7Ans3</tabstop>
+  <tabstop>quest7Ans4</tabstop>
+  <tabstop>quest7Ans5</tabstop>
+  <tabstop>quest8Ans1</tabstop>
+  <tabstop>quest8Ans2</tabstop>
+  <tabstop>quest8Ans3</tabstop>
+  <tabstop>quest8Ans4</tabstop>
+  <tabstop>quest8Ans5</tabstop>
+  <tabstop>quest9Ans1</tabstop>
+  <tabstop>quest9Ans2</tabstop>
+  <tabstop>quest9Ans3</tabstop>
+  <tabstop>quest9Ans4</tabstop>
+  <tabstop>quest9Ans5</tabstop>
+  <tabstop>questDAns1</tabstop>
+  <tabstop>questDAns2</tabstop>
+  <tabstop>questDAns3</tabstop>
+  <tabstop>questDAns4</tabstop>
+  <tabstop>questDAns5</tabstop>
+  <tabstop>pushButton</tabstop>
  </tabstops>
  <resources/>
  <connections/>
