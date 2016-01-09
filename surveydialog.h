@@ -33,6 +33,8 @@ private slots:
 
     void addResult(char question, char answer);
 
+    bool checkComplete();
+
 
 
 

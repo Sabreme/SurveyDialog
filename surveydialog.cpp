@@ -37,6 +37,11 @@ void SurveyDialog::selectionMade(QAbstractButton *radioButton)
 
     addResult(question, answer);
 
+    if (checkComplete())
+    {
+        ui->buttonSubmit->setEnabled(true);
+    }
+
 }
 
 void SurveyDialog::selectionToValue(QString buttonName)
@@ -46,7 +51,8 @@ void SurveyDialog::selectionToValue(QString buttonName)
 
 void SurveyDialog::answerQuestion(char question)
 {
-    QString style = "QLabel {  color : rgb(225,67,19); }";
+    //QString style = "QLabel {  color : rgb(225,67,19); border : 1px solid white; border-radius : 2px; }";
+    QString style = "QLabel {  padding : 2px; border : 4px solid white; border-radius : 4px; text-decoration: line-through;}";
     switch (question)
     {
         case  '1': ui->label_No01->setStyleSheet(style); break;
@@ -83,6 +89,20 @@ void SurveyDialog::addResult(char question, char answer)
         default :
             break;
     }
+}
+
+bool SurveyDialog::checkComplete()
+{
+    bool value = true;
+
+    for (int i = 0; i < 10 ; i ++)
+    {
+        if (userAnswers[i] == 0 || userAnswers[i] > 6)
+        {
+            value = false;
+        }
+    }
+    return value;
 }
 
 
