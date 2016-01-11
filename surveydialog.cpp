@@ -17,10 +17,13 @@ SurveyDialog::~SurveyDialog()
 
 void SurveyDialog::on_buttonSubmit_clicked()
 {
-    for (int i = 0; i < 10; i++ )
-    {
-        std::cout << "Question: " << i << "\t Answer: " << userAnswers[i] << std::endl;
-    }
+//    for (int i = 0; i < 10; i++ )
+//    {
+//        std::cout << "Question: " << i << "\t Answer: " << userAnswers[i] << std::endl;
+//    }
+    std::cout << "SUS Score = " << calculateScore() << std::endl;
+
+
     //std::cout << "Button Pressed" << std::endl;
 }
 
@@ -103,6 +106,20 @@ bool SurveyDialog::checkComplete()
         }
     }
     return value;
+}
+
+int SurveyDialog::calculateScore()
+{
+    int sum = 0;
+
+    for (int i = 1; i < 11 ; i++)
+    {
+        if ((i%2) == 0) // EVEN NUMBERS = 5 - Answer
+            sum += 5- userAnswers[i-1];
+        else            // ODD NUMBERS = Answer  - 1
+            sum += userAnswers[i-1] - 1;
+    }
+    return sum * 2.5;
 }
 
 

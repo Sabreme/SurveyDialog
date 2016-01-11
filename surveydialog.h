@@ -35,6 +35,8 @@ private slots:
 
     bool checkComplete();
 
+    int calculateScore();
+
 
 
 
